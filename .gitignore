@@ -1,0 +1,8 @@
+# Local-scope plugin install (created by `claude plugin install --scope local`)
+.claude/settings.local.json
+
+# OS noise
+.DS_Store
+
+# Artifact sources (published to claude.ai, not to the repo)
+.claude/artifacts/

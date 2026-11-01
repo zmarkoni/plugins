@@ -27,8 +27,8 @@ The full text lives in one place: [`skills/be-honest/SKILL.md`](skills/be-honest
 ## Install
 
 ```bash
-/plugin marketplace add agenticDraft/plugins
-/plugin install no-hallucinations@agenticdraft
+/plugin marketplace add zmarkoni/plugins
+/plugin install no-hallucinations@zmarkoni-plugins
 ```
 
 Restart the session. To scope it to a single repo instead of your whole machine, commit a
@@ -83,7 +83,7 @@ example-project/                         # per-project install example
 ## Develop
 
 ```bash
-git clone git@github.com:agenticDraft/plugins.git
+git clone git@github.com:zmarkoni/plugins.git
 cd plugins
 
 # validate the manifest (--strict turns unknown-field warnings into errors)
@@ -95,7 +95,7 @@ CLAUDE_PLUGIN_ROOT="$PWD/plugins/no-hallucinations" \
 
 # install from the local checkout
 /plugin marketplace add ./
-/plugin install no-hallucinations@agenticdraft
+/plugin install no-hallucinations@zmarkoni-plugins
 ```
 
 Use `claude --debug` to confirm the hook fired and see its output.

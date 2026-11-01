@@ -1,15 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "extraKnownMarketplaces": {
-    "agenticdraft": {
+    "zmarkoni-plugins": {
       "source": {
         "source": "github",
-        "repo": "agenticDraft/plugins"
+        "repo": "zmarkoni/plugins"
       },
       "autoUpdate": true
     }
   },
   "enabledPlugins": {
-    "no-hallucinations@agenticdraft": true
+    "no-hallucinations@zmarkoni-plugins": true
   }
 }

@@ -3,12 +3,12 @@
   "name": "no-hallucinations",
   "displayName": "No Hallucinations",
   "description": "Truthfulness guardrails for every response: no made-up facts or sources, explicit uncertainty, no reflexive agreement.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
-    "name": "agenticDraft"
+    "name": "Zoran Markovic"
   },
-  "homepage": "https://github.com/agenticDraft/plugins",
-  "repository": "https://github.com/agenticDraft/plugins",
+  "homepage": "https://github.com/zmarkoni/plugins",
+  "repository": "https://github.com/zmarkoni/plugins",
   "license": "MIT",
   "keywords": [
     "claude-code",
