@@ -15,13 +15,13 @@ example-project/
 ```jsonc
 {
   "extraKnownMarketplaces": {
-    "agenticdraft": {                                    // ① register the catalog
-      "source": { "source": "github", "repo": "agenticDraft/plugins" },
+    "zmarkoni-plugins": {                                // ① register the catalog
+      "source": { "source": "github", "repo": "zmarkoni/plugins" },
       "autoUpdate": true
     }
   },
   "enabledPlugins": {
-    "no-hallucinations@agenticdraft": true               // ② turn the plugin on
+    "no-hallucinations@zmarkoni-plugins": true           // ② turn the plugin on
   }
 }
 ```
@@ -35,7 +35,7 @@ the plugin on for every teammate but do not install it on their machines, so eac
 this once in the directory:
 
 ```bash
-claude plugin install no-hallucinations@agenticdraft --scope project
+claude plugin install no-hallucinations@zmarkoni-plugins --scope project
 ```
 
 ## Verify it's working
@@ -50,8 +50,8 @@ claude plugin install no-hallucinations@agenticdraft --scope project
 If you'd rather not commit settings:
 
 ```bash
-/plugin marketplace add agenticDraft/plugins
-/plugin install no-hallucinations@agenticdraft
+/plugin marketplace add zmarkoni/plugins
+/plugin install no-hallucinations@zmarkoni-plugins
 ```
 
 `enabledPlugins` then controls on/off per project, and `/plugin disable no-hallucinations`

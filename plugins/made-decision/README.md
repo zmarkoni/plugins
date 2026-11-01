@@ -9,8 +9,8 @@ directly if that analysis doesn't support the option you picked.
 ## Install
 
 ```bash
-/plugin marketplace add agenticDraft/plugins
-/plugin install made-decision@agenticdraft
+/plugin marketplace add zmarkoni/plugins
+/plugin install made-decision@zmarkoni-plugins
 ```
 
 ## Use
